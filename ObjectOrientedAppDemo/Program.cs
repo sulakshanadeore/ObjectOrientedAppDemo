@@ -23,6 +23,7 @@ namespace ObjectOrientedAppDemo
             address.Area = "Atul Area";
             emp.EmpAddress = address;
             emp.JoiningDate = new DateTime(2022, 06, 11);
+            emp.Deptno = 100;
             Console.WriteLine(emp.Employeeid);
             Console.WriteLine(emp.Title);
             Console.WriteLine(emp.FirstName);
@@ -49,7 +50,7 @@ namespace ObjectOrientedAppDemo
             address.HouseNo =456;
             address.Area = "Some Area";
             emp1.EmpAddress = address;
-
+            emp1.Deptno = 100;
             List<Employee> emplist = new List<Employee>();
             emplist.Add(emp);
             emplist.Add(emp1);

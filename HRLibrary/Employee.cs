@@ -44,6 +44,16 @@ namespace HRLibrary
             set { _fname = value; }
         }
 
+        private int _deptno;
+
+        public int Deptno
+        {
+            get { return _deptno; }
+            set { _deptno = value; }
+        }
+
+
+
         private string _lname;
 
         public string LastName
