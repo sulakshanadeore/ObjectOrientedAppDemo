@@ -13,6 +13,7 @@ namespace HRLibrary
         //whatever are the changes will be made to this single cnt variable
         static int cnt;
         int i = 0;
+
         public static int studNo = 1;
         public void AddStudent()
         {
