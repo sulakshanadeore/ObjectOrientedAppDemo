@@ -20,7 +20,8 @@ namespace ObjectOrientedAppDemo
             emp.EmpAddress.HouseNo = 101;
             emp.EmpAddress.Area = "HHH";
             emp.JoiningDate = new DateTime(2022, 06, 11);
-            emp.Employeeid;
+            Console.WriteLine(emp.Employeeid);
+            Console.ReadKey();
 
 
 
