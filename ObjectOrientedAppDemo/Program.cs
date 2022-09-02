@@ -17,6 +17,7 @@ namespace ObjectOrientedAppDemo
             //Student.Initialize();
 
             
+
             Student s1 = new Student();
             s1.AddStudent();
             Console.WriteLine("--------");
