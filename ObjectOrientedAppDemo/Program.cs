@@ -10,12 +10,47 @@ namespace ObjectOrientedAppDemo
     {
         static void Main(string[] args)
         {
+            //  EmployeeDemo();
+
+
+            //Student.Initialize();
+            //Student.Initialize();
+
+            Student s1 = new Student();
+            s1.AddStudent();
+            Console.WriteLine("--------");
+            Student s2 = new Student();
+            s2.AddStudent();
+            Console.WriteLine("--------");
+            Student s3 = new Student();
+            s3.AddStudent();
+            
+            //Student stud = new Student();
+            //stud.AddStudent(); //1
+            //stud.AddStudent();
+            //Console.WriteLine("----------------");
+            //Student s1 = new Student();
+            //s1.AddStudent();
+            //Student s2 = new Student();
+            //s2.AddStudent();
+            //stud.AddStudent(); //2
+            //stud.AddStudent();  //3
+            //stud.DeleteStudent(); //2
+            //stud.AddStudent(); //3
+            Console.ReadKey();
+
+
+
+        }
+
+        private static void EmployeeDemo()
+        {
             Employee emp = new Employee(101);
             //emp.Employeeid = 101;
             emp.Title = "Dr.";
             emp.FirstName = "Anisha";
             emp.LastName = "K";
-           
+
             Address address = new Address();
             address.StreetNo = 12;
             address.ApartmentName = "Atul Apts";
@@ -43,11 +78,11 @@ namespace ObjectOrientedAppDemo
             emp1.Title = "Mr";
             emp1.FirstName = "Keshav";
             emp1.LastName = "P";
-            emp1.JoiningDate = new DateTime(2019,01,10);
+            emp1.JoiningDate = new DateTime(2019, 01, 10);
             Address address1 = new Address();
             address.StreetNo = 13;
             address.ApartmentName = "Ajay Apts";
-            address.HouseNo =456;
+            address.HouseNo = 456;
             address.Area = "Some Area";
             emp1.EmpAddress = address;
             emp1.Deptno = 100;
@@ -65,7 +100,7 @@ namespace ObjectOrientedAppDemo
 
             Console.WriteLine("Dept details");
             Console.WriteLine("Deptno= " + d.Deptnumber);
-            Console.WriteLine("Deptname"  + d.DepartmentName);
+            Console.WriteLine("Deptname" + d.DepartmentName);
             Console.WriteLine("Location of Dept=" + d.Location);
             foreach (var item in d.DeptEmployees)
             {
@@ -80,15 +115,6 @@ namespace ObjectOrientedAppDemo
                 Console.WriteLine(item.EmpAddress.Area);
                 Console.WriteLine("--------------------------");
             }
-
-
-
-
-
-            Console.ReadKey();
-
-
-
         }
     }
 }
