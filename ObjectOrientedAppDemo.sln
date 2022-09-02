@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedAppDemo", "ObjectOrientedAppDemo\ObjectOrientedAppDemo.csproj", "{E94899A9-35C0-4AB5-9067-04C435FDFB7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9F4C4E1-4BDE-419B-A1E5-EAAA19180166} = {A9F4C4E1-4BDE-419B-A1E5-EAAA19180166}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLibrary", "HRLibrary\HRLibrary.csproj", "{A9F4C4E1-4BDE-419B-A1E5-EAAA19180166}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E94899A9-35C0-4AB5-9067-04C435FDFB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94899A9-35C0-4AB5-9067-04C435FDFB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94899A9-35C0-4AB5-9067-04C435FDFB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94899A9-35C0-4AB5-9067-04C435FDFB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F4C4E1-4BDE-419B-A1E5-EAAA19180166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F4C4E1-4BDE-419B-A1E5-EAAA19180166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F4C4E1-4BDE-419B-A1E5-EAAA19180166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F4C4E1-4BDE-419B-A1E5-EAAA19180166}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF10052F-FC02-4EA4-B065-80933BA0387D}
+	EndGlobalSection
+EndGlobal
