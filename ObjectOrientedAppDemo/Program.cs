@@ -16,10 +16,12 @@ namespace ObjectOrientedAppDemo
             //Student.Initialize();
             //Student.Initialize();
 
+            
             Student s1 = new Student();
             s1.AddStudent();
             Console.WriteLine("--------");
             Student s2 = new Student();
+
             s2.AddStudent();
             Console.WriteLine("--------");
             Student s3 = new Student();

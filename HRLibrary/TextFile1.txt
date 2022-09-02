@@ -8,3 +8,4 @@ Non static variable--- can be used in static Methods by creating object  of the 
 				   -----Cannot be used in static constructor
 
 ****************************************************************************
+All variables,fields ,methods etc must be in side the class only, not allowed in  namespace.

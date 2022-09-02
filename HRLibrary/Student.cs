@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace HRLibrary
 {
-   public class Student
+   
+    public class Student
     {
         //static means no other copy of this variable will exists/
         //whatever are the changes will be made to this single cnt variable
         static int cnt;
         int i = 0;
+        public static int studNo = 1;
         public void AddStudent()
         {
             //Can access static variable in non static method
